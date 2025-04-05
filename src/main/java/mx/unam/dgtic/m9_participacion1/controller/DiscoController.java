@@ -27,6 +27,7 @@ public class DiscoController {
         discos.put(1, new Disco(1, "Fate in the future", "Louis Tomlinson", LocalDate.of(2023, 9, 15)));
         discos.put(2, new Disco(2, "The Last of Us", "Gustavo Santaolalla", LocalDate.of(2023, 1, 15)));
         discos.put(3, new Disco(3, "The Dark Side of the Moon", "Pink Floyd", LocalDate.of(1973, 3, 1)));
+        discos.put(4, new Disco(4, "The Wall", "Pink Floyd", LocalDate.of(1979, 11, 30)));
     }
 
     @GetMapping("ping")
